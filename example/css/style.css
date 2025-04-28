@@ -1,0 +1,46 @@
+* {
+  /** box-sizing: border-box räknar med border, padding, margin i din width och height */
+  /** content-box adderar på padding, border och margin på din width och height */
+  box-sizing: border-box;
+}
+
+body {
+  background-color: beige;
+  color: violet;
+  width: 100vw;
+  height: 100vh;
+}
+
+h1 {
+  color: blue;
+}
+
+.title {
+  color: aqua;
+}
+
+.container {
+  background-color: black;
+  height: 50%;
+}
+
+.presentation {
+  width: 100px;
+  height: 100px;
+  background-color: darkgrey;
+  padding: 10px;
+  border: 1px solid #fff;
+  margin: 10px;
+}
+
+.button {
+  background-color: #93f;
+  margin: 10px;
+  color: #fff;
+  padding: 10px;
+  border: 1px solid #93f;
+}
+
+.round {
+  border-radius: 50px;
+}
