@@ -1,0 +1,57 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw; /* Body ska ta hela sidans bredd och höjd */
+  height: 100vh;
+  margin: 0;
+}
+
+.navigation {
+  border: 1px solid #000;
+  width: 100%;
+  padding: 10px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.link {
+  color: #93f;
+  text-decoration: none;
+}
+
+.presentation {
+  width: 100%;
+  height: 50%;
+  background-color: #000;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  color: white;
+}
+
+.sub-title {
+  color: white;
+}
+
+.columns {
+  width: 100%;
+  height: 50%;
+  border: 1px solid #000;
+  display: flex;
+}
+
+.column {
+  width: 50%;
+  height: 100%;
+  background-color: grey;
+}
+
+.purple {
+  background-color: #93f;
+}

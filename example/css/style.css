@@ -44,3 +44,19 @@ h1 {
 .round {
   border-radius: 50px;
 }
+
+.section-one {
+  width: 220px;
+  height: 200px;
+  background-color: black;
+}
+
+.section-one-text {
+  color: #fff;
+}
+
+.inside-section-one {
+  width: 200px;
+  height: 50%;
+  background-color: #93f;
+}
